@@ -10,7 +10,7 @@ I hope you find this tool useful.  CandyKD.
 
 <head>
 	<style>
-	body{
+	body {
 		background-color:linen;
 	}
 	p {
@@ -21,8 +21,7 @@ I hope you find this tool useful.  CandyKD.
 	</style>
 
 	<style type="text/css">
-	.button
-	{
+	.button	{
 	  -webkit-border-radius: 10;
 	  -moz-border-radius: 10;
 	  border-radius: 10px;
@@ -35,8 +34,7 @@ I hope you find this tool useful.  CandyKD.
 	  text-decoration: none;
 	}
 
-	.button:hover 
-	{
+	.button:hover	{
 	  background: #3cb0fd;
 	  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
 	  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
@@ -46,7 +44,7 @@ I hope you find this tool useful.  CandyKD.
 	  text-decoration: none;
 	}
 
-	.box{
+	.box {
 		font-family:candara, arial;
 		font-size: 20px;
 		margin-left: 50px;
@@ -59,7 +57,7 @@ I hope you find this tool useful.  CandyKD.
 </head>
 	
 	<body>
-     <br><br>
+	 <br><br>
 				
 	<input type="button" value="Click Here to Delete Tabs for Previous Multi-Searches" class="button" onclick="declutter()">
 	
@@ -86,6 +84,7 @@ I hope you find this tool useful.  CandyKD.
 		 win8 = window.open("https://translate.google.com/#sv/en/" + q );
 		 win9 = window.open("http://folkets-lexikon.csc.kth.se/folkets/folkets.en.html#lookup&" + q);
 		 win10 = window.open("http://www.interglot.com/dictionary/sv/en/search?q=" + q + "&m=");
+		 win11 = window.open("https://spraakbanken.gu.se/ws/saldo-ws/fl/html/" + q);"
 		 document.getElementById("boxu").value = "";
 		}
 	}
@@ -104,6 +103,7 @@ I hope you find this tool useful.  CandyKD.
 	  win8.close();
 	  win9.close();
 	  win10.close();
+	  win11.close();
 	}
 	</script>
 	</body>
