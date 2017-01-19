@@ -2,7 +2,7 @@
 <html>
 
 <!-- This Swedish Multi-Search tool was inspired by the contributors to fluent-forever.com and by the Duolingo
-Swedish-English Team.  Currently, this tool searches 10 websites for Swedish words.  The tool also has a button 
+Swedish-English Team.  Currently, this tool searches 12 websites for Swedish words.  The tool also has a button 
 for clearing the tabs for previous multi-searches.  The tool works on Chrome. I have not tested it on any other 
 browser nor have I tested it on moblie devices.  I am a hacker NOT a developer!
 I hope you find this tool useful.  CandyKD.
@@ -90,6 +90,7 @@ I hope you find this tool useful.  CandyKD.
 				win9 = window.open("http://folkets-lexikon.csc.kth.se/folkets/folkets.en.html#lookup&" + q);
 				win10 = window.open("http://www.interglot.com/dictionary/sv/en/search?q=" + q + "&m=");
 				win11 = window.open("https://spraakbanken.gu.se/ws/saldo-ws/fl/html/" + q);
+				win12 = window.open("http://www.wordreference.com/sven/" + q);
 				document.getElementById("boxu").value = "";
             	}
             }
@@ -109,6 +110,7 @@ I hope you find this tool useful.  CandyKD.
 			 win9.close();
 			 win10.close();
 			 win11.close();
+			 win12.close();
 			}
 		 </script>
 	</body>
