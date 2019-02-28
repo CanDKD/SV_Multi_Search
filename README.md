@@ -1,7 +1,7 @@
 # SVENMultiSearch.html
 ## Introduction
 This Swedish-English Multi-Search tool was inspired by the contributors to https://fluent-forever.com/ and by the Duolingo
-Swedish-English Team.  Currently, this tool searches 12 websites for Swedish words.  The tool also has a button 
+Swedish-English Team.  Currently, this tool searches 14 websites for Swedish words.  The tool also has a button 
 for clearing the tabs for previous multi-searches.  I have used this tool when creating my own Swedish Anki decks (http://ankisrs.net/).  
 
 Upon opening the SVENMultiSearch file in your browser (I use Chrome or Firefox), this window appears:
