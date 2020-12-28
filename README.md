@@ -12,13 +12,6 @@ Upon opening the SVENMultiSearch file in your browser (I use Chrome or Firefox),
 To access this tool:
 
 1. click on the SVENMultiSearch.html file in the SV_Multi_Search repository  
-2. with the '<> Code' tab selected, select and copy the code   
-3. paste it into a text editor (I use Notepad)   
-4. save the file with an .html extension  
-
-OR
-
-1. click on the SVENMultiSearch.html file in the SV_Multi_Search repository  
 2. with the '<> Code' tab selected, click on the 'Raw' button    
 3. the raw file will open in your browser     
 4. right-click in the open window and save the file with an .html extension  
